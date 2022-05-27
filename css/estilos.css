@@ -1,0 +1,648 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* -ms-scroll-snap-type: y mandatory;
+    scroll-snap-type: y mandatory; */
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* FUENTES PEPINAS */
+
+@font-face {
+    font-family: "Distant";
+    src: url('../fonts/Distant_Stroke.otf');
+}
+
+@font-face {
+    font-family: "Rund";
+    src: url('../fonts/Rundkursiv.ttf');
+}
+
+@font-face {
+    font-family: "Mandhor";
+    src: url('../fonts/Mandhor-ALEmp.otf');
+}
+
+body {
+    margin: 0;
+}
+
+body.disabledScroll {
+    overflow: hidden;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.centrar {
+    /* margin: 10px; */
+    height: 100%;
+}
+
+section {
+    /* height: calc(100vh - 14em); */
+    /* height: 100%; */
+    /* scroll-snap-align: start; */
+    text-align: center;
+    min-height: 100vh;
+}
+
+#entrantes {
+    background-image: url(../img/entrantes2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#primeros {
+    background-image: url(../img/primeros.jpeg);
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+#segundos {
+    background-image: url(../img/sushi.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#postres {
+    background-image: url(../img/postres.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+#bebidas {
+    background-image: url(../img/foto_bebidas.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#vinos {
+    background-image: url(../img/vinos.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    max-height: 50%;
+}
+
+.bar {
+    overflow: hidden;
+    color: white;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 13;
+}
+
+.bar p {
+    padding: 0 20px;
+    float: left;
+    font-size: 12px;
+}
+
+.header {
+    background-image: url(../img/header.jpg);
+    padding: 15vw 0;
+    text-align: center;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 4vw;
+    /*-webkit-filter: blur(3px);*/
+    /*filter: blur(3px);*/
+    min-height: 100vh;
+}
+
+.textHeader {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -100%);
+    transform: translate(-50%, -100%);
+    z-index: 2;
+    width: 50%;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.one-column {
+    width: 100%;
+    /* background-color: #4a61e4;
+    background-image: radial-gradient(#000000, #242424); */
+    /* backdrop-filter: blur(10px); */
+    text-align: center;
+    padding: 2px 0;
+}
+
+.one-column h1 {
+    font-family: "Mandhor";
+    color: rgb(234, 230, 202);
+    font-size: 4vw;
+}
+
+.object {
+    position: absolute;
+    -webkit-animation: move 5s ease infinite;
+    animation: move 5s ease infinite;
+    top: 0%;
+    left: 0%;
+}
+
+.object2 {
+    position: absolute;
+    -webkit-animation: move2 5s ease infinite;
+    animation: move2 5s ease infinite;
+    top: 0%;
+    left: 0%;
+}
+
+@-webkit-keyframes move {
+    50% {
+        -webkit-transform: translate(1300%, 0);
+        transform: translate(1300%, 0);
+    }
+}
+
+@keyframes move {
+    50% {
+        -webkit-transform: translate(1300%, 0);
+        transform: translate(1300%, 0);
+    }
+}
+
+@-webkit-keyframes move2 {
+    50% {
+        -webkit-transform: translate(-1300%, 0);
+        transform: translate(-1300%, 0);
+    }
+}
+
+@keyframes move2 {
+    50% {
+        -webkit-transform: translate(-1300%, 0);
+        transform: translate(-1300%, 0);
+    }
+}
+
+.margen {
+    width: 100%;
+    max-width: 2800px;
+    padding-left: 12%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    /* backdrop-filter: blur(3px); */
+    height: 87.2%;
+    /* overflow-y: scroll; */
+    align-content: center;
+    padding-right: 12%;
+}
+
+.abajo {
+    padding-top: 5%;
+}
+
+.margen::-webkit-scrollbar {
+    display: none;
+}
+
+.four-column {
+    width: 50%;
+}
+
+.margen .four-column {
+    width: 320px;
+    height: 400px;
+    border-radius: 8px;
+    /* background-color: rgb(234, 230, 202); */
+    background-image: url("../img/papel4.jpg");
+    /* background-color: rgb(252, 252, 252); */
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    margin: 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.margen .four-column .img-box {
+    position: relative;
+    overflow: hidden;
+    /* border: 2px solid rgb(0, 0, 0); */
+    border-radius: 6px 6px 0 0;
+}
+
+.margen .four-column .img-box img {
+    max-width: 160%;
+    height: 220px;
+    -webkit-transition: -webkit-transform 2s;
+    transition: -webkit-transform 2s;
+    transition: transform 2s;
+    transition: transform 2s, -webkit-transform 2s;
+}
+
+.margen .four-column:hover .img-box img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.margen .four-column .txt {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    bottom: -10px;
+    right: -10px;
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    border: 3px solid #f1f1f1;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transition: -webkit-transform .5s;
+    transition: -webkit-transform .5s;
+    transition: transform .5s;
+    transition: transform .5s, -webkit-transform .5s;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.margen .four-column:hover .txt {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+}
+
+.margen .four-column .txt .contenido {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 30px;
+    width: 100%;
+}
+
+.nom-pre {
+    margin: 0 5%;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    margin: 0px 0px;
+    min-height: 180px;
+    height: 180px;
+}
+
+#footer p {
+    font-size: 25px;
+}
+
+.four-column2 {
+    padding: 0 12px 0 12px;
+    float: left;
+    width: 25%;
+}
+
+.two-column {
+    float: left;
+    width: 50%;
+    padding: 1.8% 1% 1.4% 35px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 10%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.4s;
+    font-size: 20px;
+    z-index: 3;
+}
+
+
+/* Style the topnav links */
+
+li {
+    float: left;
+    width: 25%;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    /* padding: 14px 20%; */
+    padding: 2% 0%;
+    width: 100%;
+    text-decoration: none;
+}
+
+
+/* Change color on hover */
+
+li:hover:not(.active) {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+hr {
+    color: black;
+}
+
+
+/*++++++++++++++++Style the navbar++++++++++++++++*/
+
+.content {
+    max-width: 10%;
+    /*margin: auto;*/
+    padding: 0 20px;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    /* padding: 20% 2%; */
+    margin: 20% 2%;
+    transition: all 0.3s ease;
+}
+
+.navbar.cerrar {
+    transition: all 0.3s ease;
+}
+
+.navbar.sticky {
+    padding: 10px 0;
+    background: rgba(255, 255, 255, 0.8);
+    transition: all 1s ease;
+}
+
+.navbar .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .menu-list {
+    display: block;
+    position: fixed;
+    top: 5%;
+    left: -100%;
+    height: 100vh;
+    width: 100%;
+    max-width: 30%;
+    background-image: url('../img/papel.jpg');
+    /* background-color: rgb(255, 255, 255); */
+    background-position: fixed;
+    background-attachment: scroll;
+    padding: 40px 0;
+    text-align: center;
+    transition: all 0.3s ease;
+    margin-top: 0;
+    border-radius: 5px;
+    border: 0.1vw solid rgb(255, 255, 255);
+    justify-content: center;
+}
+
+.menu-list li {
+    list-style: none;
+    display: inline-flex;
+    align-items: flex-end;
+    /*Para que se vea uno bajo otro*/
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.menu-list li a {
+    color: #000000;
+    font-size: 3vw;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-family: "Distant";
+}
+
+.menu-list li a:hover {
+    /*font-weight: 1000;*/
+    color: rgb(180, 194, 219);
+}
+
+.icon {
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+.icon.menu-btn {
+    color: rgb(255, 255, 255);
+}
+
+.icon.cancel-btn {
+    color: #f38e8e;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*Características de la burguer*/
+
+
+/*body.disabledScroll {
+        overflow: hidden;
+    }*/
+
+.icon {
+    display: block;
+}
+
+.menu-btn {
+    font-size: 2.5vw;
+}
+
+.menu-btn:hover {
+    color: rgb(0, 157, 248);
+}
+
+.cancel-btn {
+    font-size: 30px;
+}
+
+.cancel-btn:hover {
+    color: rgb(255, 0, 0);
+}
+
+.icon.hide {
+    display: none;
+}
+
+.navbar .menu-list.active {
+    left: 1%;
+    /*Estaba en auto y cuando solo hay 1 da problemas*/
+    width: 20%;
+}
+
+@media screen and (max-width: 1400px) {
+    /*--------navbar-----------*/
+    .navbar .menu-list {
+        max-width: 100%;
+    }
+    .navbar .menu-list li {
+        margin-top: 45px;
+        /*Para que se vea uno bajo otro*/
+        width: 100%;
+    }
+    .navbar .menu-list li a {
+        font-size: 2.5vw;
+    }
+    body.disabledScroll {
+        overflow: hidden;
+    }
+    /*---------Footer---------*/
+    #footer p {
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #footer p {
+        font-size: 3vw;
+    }
+    #footer {
+        height: 342px;
+    }
+    .two-column {
+        padding: 1.8% 10% 1.4% 5%;
+    }
+    .one-column h1 {
+        font-size: 8vw;
+    }
+    .fad.fa-water {
+        font-size: 3vw;
+        color: #db6e6e;
+    }
+    .textHeader {
+        -webkit-transform: translate(-50%, -160%);
+        transform: translate(-50%, -160%);
+    }
+    .bar {
+        width: 100%;
+        float: left;
+    }
+    .four-column {
+        padding: 0;
+    }
+    .margen .four-column .img-box img {
+        transform: translateX(-10px) scaleX(1.2);
+        height: 220px;
+    }
+    /* .margen .four-column .img-box img {
+        max-width: 160%;
+        
+        -webkit-transition: -webkit-transform 2s;
+        transition: -webkit-transform 2s;
+        transition: transform 2s;
+        transition: transform 2s, -webkit-transform 2s;
+    } */
+    .two-column {
+        width: 100%;
+    }
+    .four-column2 {
+        width: 50%;
+        padding-left: 5%;
+    }
+    .navbar .menu-list.active {
+        width: 50%;
+    }
+    .menu-btn {
+        font-size: 4.5vw;
+    }
+    .navbar .menu-list li a {
+        padding: 0;
+        font-size: 8vw;
+    }
+    .margen {
+        padding-left: 17%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar .menu-list {
+        max-width: 100%;
+        top: 0;
+    }
+    .navbar .menu-list li a {
+        padding: 0;
+        font-size: 8vw;
+    }
+    .navbar .menu-list {
+        padding: 0;
+    }
+    .navbar .menu-list.active {
+        width: 50%;
+    }
+    .navbar .menu-list.active {
+        left: 0%;
+    }
+    .margen {
+        padding-left: 28%;
+    }
+    #footer {
+        height: 242px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .margen {
+        padding-left: 17%;
+    }
+    #footer {
+        height: 132px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .menu-btn {
+        font-size: 6.5vw;
+    }
+    .navbar .menu-list.active {
+        width: 100%;
+    }
+    .navbar .menu-list li a {
+        font-size: 8.2vw;
+    }
+}

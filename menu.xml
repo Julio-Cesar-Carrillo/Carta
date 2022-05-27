@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='xsl/estructura.xsl'?>
+    <menu>
+        <Entrantes>
+            <nombre>Sopa de miso</nombre>
+            <precio>4.00</precio>
+            <descripcion>La sopa de miso o Misoshiru es uno de los platos mas típicos de japón. Consiste en un plato de caldo de verduras con alga y tofu.</descripcion>
+            <calorias>50.00</calorias>
+            <Ingredientes>Cebolla, zanahoria, apio, alga wakame, tofu, pasta de miso.</Ingredientes>
+            <imagen ruta='img/sopa_miso.jpg'>sopa_miso.jpg</imagen>
+        </Entrantes>
+
+        <Entrantes>
+            <nombre>Goma Wakame</nombre>
+            <precio>3.00</precio>
+            <descripcion>Goma Wakame, es un alga origen japonés con un delicado y suave sabor a mar.</descripcion>
+            <calorias>45.00</calorias>
+            <Ingredientes>goma wakame deshidratada, espinacas, pepino, aguacate, semillas de sésamo, alfalfa germinada.</Ingredientes>
+            <imagen ruta='img/goma_wakame.jpg'>goma_wakame.jpg</imagen>
+        </Entrantes>
+
+        <Entrantes>
+            <nombre>Bolas de pulpo</nombre>
+            <precio>4.95</precio>
+            <descripcion>Deliciosas bolas de pulpo arrebozado fritas</descripcion>
+            <calorias>154.00</calorias>
+            <Ingredientes>Pulpo, harina, ketchup, mayonesa, cebolla</Ingredientes>
+            <imagen ruta='img/bolas_pulpo.jpg'>bolas_pulpo.jpg</imagen>
+        </Entrantes>
+
+        <Entrantes>
+            <nombre>Tempura de langostino</nombre>
+            <precio>7.40</precio>
+            <descripcion>Langostino fresco frito con salsa de soja</descripcion>
+            <calorias>148.00</calorias>
+            <Ingredientes>Langostino, harina, salsa de soja</Ingredientes>
+            <imagen ruta='img/tempura_langostino.jpg'>tempura_langostino.jpg</imagen>
+        </Entrantes>
+
+        <Primeros>
+            <nombre>Fideos fritos Yakisoba</nombre>
+            <precio>4.70</precio>
+            <descripcion>Fideos al auténtico estilo Yakisoba</descripcion>
+            <calorias>237.00</calorias>
+            <Ingredientes>Fideos, pollo, gamba, ternera</Ingredientes>
+            <imagen ruta='img/fideos_yakisoba.jpg'>fideos_yakisoba.jpg</imagen>
+        </Primeros>
+
+        <Primeros>
+            <nombre>Pato japonés</nombre>
+            <precio>7.50</precio>
+            <descripcion>Pato hecho al estilo japonés con exquisita salsa secreta</descripcion>
+            <calorias>187.00</calorias>
+            <Ingredientes>Pollo, harina, pepino, zanahoria</Ingredientes>
+            <imagen ruta='img/pato_japones.jpg'>pato_japones.jpg</imagen>
+        </Primeros>
+
+        <Primeros>
+            <nombre>Arroz al curry</nombre>
+            <precio>4.70</precio>
+            <descripcion>Arroz con curry hecho al estilo tradicional</descripcion>
+            <calorias>129.00</calorias>
+            <Ingredientes>Arroz, pollo, verduras, curry</Ingredientes>
+            <imagen ruta='img/arroz_curry.jpg'>arroz_curry.jpg</imagen>
+        </Primeros>
+
+        <Primeros>
+            <nombre>Arroz tres delicias</nombre>
+            <precio>4.30</precio>
+            <descripcion>Arroz tres delicias con carácter propio</descripcion>
+            <calorias>103.00</calorias>
+            <Ingredientes>Arroz, verduras, gambas</Ingredientes>
+            <imagen ruta='img/arroz_3_delicias.jpg'>arroz_3_delicias.jpg</imagen>
+        </Primeros>
+
+        <Primeros>
+            <nombre>Fideos Udon</nombre>
+            <precio>5.20</precio>
+            <descripcion>Fideos Udon con pollo de corral</descripcion>
+            <calorias>156.00</calorias>
+            <Ingredientes>Fideos, pollo, setas, verduras</Ingredientes>
+            <imagen ruta='img/fideos_udon.jpg'>fideos_udon.jpg</imagen>
+        </Primeros>
+
+        <Segundos>
+            <nombre>Niguiri de salmón</nombre>
+            <precio>1.50</precio>
+            <descripcion>Si hay un tipo de sushi típico, clásico y que no puede faltar entre tus platos más top, ese es el Nigiri de salmón.</descripcion>
+            <calorias>88.00</calorias>
+            <Ingredientes>Arroz, salmón</Ingredientes>
+            <imagen ruta='img/niguiri_salmon.jpg'>niguiri_salmon.jpg</imagen>
+        </Segundos>
+
+        <Segundos>
+            <nombre>Nigiri de Atun</nombre>
+            <precio>4.00</precio>
+            <descripcion>Si hay un tipo de sushi típico, clásico y que no puede faltar entre tus platos más top, ese es el Nigiri de atún.</descripcion>
+            <calorias>45.00</calorias>
+            <Ingredientes>Arroz, atún</Ingredientes>
+            <imagen ruta='img/niguiri_atun.jpg'>niguiri_atun.jpg</imagen>
+        </Segundos>
+
+        <Segundos>
+            <nombre>Tempura Maki California Roll</nombre>
+            <precio>1.25</precio>
+            <descripcion>Es un Maki de sushi qué se caracteriza porque está rebozado en tempura y frito.</descripcion>
+            <calorias>225.00</calorias>
+            <Ingredientes>Arroz, huvo, harina de trigo.</Ingredientes>
+            <imagen ruta='img/tempura_maki.jpg'>tempura_maki.jpg</imagen>
+        </Segundos>
+
+        <Segundos>
+            <nombre>Karaage</nombre>
+            <precio>1.20</precio>
+            <descripcion>Pollo marinado con una fritura muy ligera y deliciosa.</descripcion>
+            <calorias>120.00</calorias>
+            <Ingredientes>Pollo, harina, salsa de soja, jengibre.</Ingredientes>
+            <imagen ruta='img/karaage.jpg'>karaage.jpg</imagen>
+        </Segundos>
+
+        <Segundos>
+            <nombre>Gunkan Masago</nombre>
+            <precio>1.80</precio>
+            <descripcion>Huevas de capelán con arroz envuelto en una tira de alga nori</descripcion>
+            <calorias>114.00</calorias>
+            <Ingredientes>Arroz, alga nori y masago.</Ingredientes>
+            <imagen ruta='img/gunkan.jpg'>gunkan.jpg</imagen>
+        </Segundos>
+
+        <Postres>
+            <nombre>Anmitsu</nombre>
+            <precio>4.60</precio>
+            <descripcion>Excepcional dulce japonés fruto de la combinación de ingredientes de alta calidad</descripcion>
+            <calorias>182.00</calorias>
+            <Ingredientes>Anko, gelatina de agar, mochi, frijoles dulces, castaña, guisantes hervidos, fresas, helado</Ingredientes>
+            <imagen ruta='img/anmitsu.jpg'>anmitsu.jpg</imagen>
+        </Postres>
+
+        <Postres>
+            <nombre>Yokan</nombre>
+            <precio>4.35</precio>
+            <descripcion>Gelatina japonesa ideal para tomar cómo postre.</descripcion>
+            <calorias>36.00</calorias>
+            <Ingredientes>Gelatina a base de agar, pasta de frijoles rojos.</Ingredientes>
+            <imagen ruta='img/yokan.jpg'>yokan.jpg</imagen>
+        </Postres>
+
+        <Postres>
+            <nombre>Daifuku</nombre>
+            <precio>4.00</precio>
+            <descripcion>La masa es una especie de engrudo de harina de arroz glutinoso, agua y azúcar, cocinados al vapor o al microondas.</descripcion>
+            <calorias>188.00</calorias>
+            <Ingredientes>Harina, judías.</Ingredientes>
+            <imagen ruta='img/daifuku.jpg'>daifuku.jpg</imagen>
+        </Postres>
+
+        <Postres>
+            <nombre>Gelatina de Café</nombre>
+            <precio>5.00</precio>
+            <descripcion>Postre veraniego para los amantes del café</descripcion>
+            <calorias>212.00</calorias>
+            <Ingredientes>Café, gelatina, leche condensada.</Ingredientes>
+            <imagen ruta='img/gelatina_cafe.jpg'>gelatina_cafe.jpg</imagen>
+        </Postres>
+
+        <Postres>
+            <nombre>Yatsuhashi</nombre>
+            <precio>5.65</precio>
+            <descripcion>Dulce que trae la esencia de Kioto a la mesa.</descripcion>
+            <calorias>118.00</calorias>
+            <Ingredientes>Harina de arroz, canela, azúcar.</Ingredientes>
+            <imagen ruta='img/yatsuhashi.jpg'>yatsuhashi.jpg</imagen>
+        </Postres>
+
+        <Bebidas>
+            <nombre>Cerveza de Limon</nombre>
+            <precio>1.00</precio>
+            <descripcion>Cerveza de limon Shandy</descripcion>
+            <calorias>153.00</calorias>
+            <Alcohol>Bajo nivel de alcohol</Alcohol>
+            <imagen ruta='img/cerveza_limon.jpg'>cerveza_limon.jpg</imagen>
+        </Bebidas>
+
+        <Bebidas>
+            <nombre>Sake</nombre>
+            <precio>18.00</precio>
+            <descripcion>Bebida japonesa que se obtiene a traves de la fermentacion del arros.</descripcion>
+            <calorias>134.10</calorias>
+            <Alcohol>Bajo nivel de alcohol</Alcohol>
+            <imagen ruta='img/sake.jpg'>sake.jpg</imagen>
+        </Bebidas>
+
+        <Bebidas>
+            <nombre>Coca-Cola</nombre>
+            <precio>2.10</precio>
+            <descripcion>Resfresco de cola</descripcion>
+            <calorias>84.00</calorias>
+            <Alcohol>NO</Alcohol>
+            <imagen ruta='img/cocacola.jpg'>cocacola.jpg</imagen>
+        </Bebidas>
+
+        <Bebidas>
+            <nombre>Agua mineral</nombre>
+            <precio>1.80</precio>
+            <descripcion>Agua mineral natural</descripcion>
+            <calorias>0.00</calorias>
+            <Alcohol>NO</Alcohol>
+            <imagen ruta='img/agua_fontvella.png'>agua_fontvella.png</imagen>
+        </Bebidas>
+
+        <Vinos>
+            <nombre>Vino Rosado Lia</nombre>
+            <precio>4.00</precio>
+            <descripcion>Vino de tonalidad rosada con retrogusto afrutado a frutas maduras.</descripcion>
+            <calorias>74.00</calorias>
+            <Graduacion>11º</Graduacion>
+            <imagen ruta='img/vino_rosado.jpg'>vino_rosado.jpg</imagen>
+        </Vinos>
+
+        <Vinos>
+            <nombre>Vino Blanco Cariñena Monasteri</nombre>
+            <precio>3.00</precio>
+            <descripcion>Vino blanco con sabores a limón, lima y melón.</descripcion>
+            <calorias>81.70</calorias>
+            <Graduacion>12.5º</Graduacion>
+            <imagen ruta='img/vino_blanco.jpg'>vino_blanco.jpg</imagen>
+        </Vinos>
+
+        <Vinos>
+            <nombre>Vino Tinto Delicia de Baco Cri</nombre>
+            <precio>35.00</precio>
+            <descripcion>Vino tinto con aromas a violeta y frutos del bosque maduros.</descripcion>
+            <calorias>83.00</calorias>
+            <Graduacion>13.5</Graduacion>
+            <imagen ruta='img/Vino_tinto.jpg'>Vino_tinto.jpg</imagen>
+        </Vinos>
+    </menu>
